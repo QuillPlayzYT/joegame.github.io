@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: #2c2727;
+    color: #afa5a5;
+    text-align: center;
+}
+
+a:visited {
+    color: #00B386
+}
+a:before {
+    color: aliceblue;
+}
+
+
+header {
+    background-color: #00B386;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+.commit-container {
+    width: 100%;
+}
+.commit {
+    background-color: #603c16;
+    padding: 1rem;
+    margin: 1rem;
+    width: 70%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.commit-title {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 4px;
+    padding: 10px;
+}
+
+.commit-message {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-left: 4px;
+    padding: 10px;
+}
+
+.commit-date {
+    color: #5C7FA3;
+    font-style: italic;
+    font-size: 1.2rem;
+    float: right;
+}
+
+.commit-author-pic {
+    border-radius: 50%;
+    width: 10%;
+    float: left;
+    padding: 10px;
+}
+
+.commit-author {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.commit-repository {
+    padding: 10px;
+    font-size: 1.2rem;
+    color: #5C7FA3;
+}
+
+.commit-prog {
+    width: 73%;
+    height: 6px;
+    display: inline-block;
+}
+
+.failed {
+    width: 100%;
+    height: 6px;
+    display: inline-block;
+    background-color: red;
+}
+
+.success {
+    background-color: greenyellow;
+    width: 100%;
+    height: 6px;
+    display: inline-block;
+}
