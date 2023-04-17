@@ -1,66 +1,195 @@
+<!-- Work on modifed Ticket Tool DJS Bot -->
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Warbenders Commits</title>
+    <title>Commit History</title>
     <link rel="stylesheet" href="page.css">
-    <script src="scripts/script.js"></script>
 </head>
 
-<body onload="GrabSearchParams();">
+<body>
     <header>
-        <h1>Warbenders Commits</h1>
+        <h1>Commit History</h1>
     </header>
-    <div class="repositories">
-        <span id="war_init"><a href="?r=war_init&sort=latest">war_init</a></span>
-        <span id="war_concepts"><a href="?r=war_concepts&sort=latest" hidden>war_concepts</a></span>
-        <span id="war_init"><a href="?r=err" hidden></a></span>
-        <span id="war_init"><a href="?r=err" hidden></a></span>
-    </div><br>
     <div class="commit-container">
-        <div class="commit-prog"><span class="failed"
-                title="Build #00003: Task: 'warboat#0001.gradle.run' FAILED!"></span></div>
         <div class="commit">
-
-            <img class="commit-author-pic" src="asset/c2c5822ceb8ddb76b2b21ea68e8d5c2dd89f89e7_full.jpg"
-                alt="Loading..">
-            <span class="commit-author">Quill</span><br>
-            <span class="commit-repository">war_init/main/warboat#0001</span><br>
-            <span class="commit-title">Added War boat Model</span><br>
-            <span class="commit-message">Implemented a war boat camera model that will transport players into their
-                country.</span><br>
-            <span class="commit-date">#</span><br>
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/12/23 9:35 AM EST</div>
+                <div class="commit-message">
+                    <strong>|+ Weapon Fire Mode</strong><br>
+                    + Pump Action Fire Mode<br>
+                    + Suppressor to AR23<br>
+                    <strong>|+ Save Data</strong><br>
+                    || Upon Saving Game the following will be saved into the character that is selected: <br>
+                    + Player Options: Crosshair, Kill Card Background, Kill Card Icon, Kill Card One Liner.<br>
+                    + Selected Character<br>
+                    + Selected Camos<br>
+                    + Selected Weapon Perk and Special Perk<br>
+                </div>
+            </div>
+            <div class="commit-prog success"></div>
         </div>
-    </div>
-    <div class='commit-container'>
-        <div class='commit-prog'><span class='success' title="Build #00002: All tasks ran successfully"></span></div>
-        <div class='commit'>
-            <img class='commit-author-pic' src='asset/c2c5822ceb8ddb76b2b21ea68e8d5c2dd89f89e7_full.jpg'
-                alt='Loading..'>
-            <span class='commit-author'>Quill</span><br>
-            <span class='commit-repository'>war_init/</span><br>
-            <span class='commit-title'>Switched Project Origin</span><br><br>
-            <span class='commit-message'>Changed editor Warbenders would be made with from Unity Engine to Unreal Editor
-                5</span><br>
-            <span class='commit-date'>#</span><br>
-        </div>
-    </div>
-    <div class="commit-container">
-        <div class="commit-prog"><span class="success" title="Build #00001: All tasks ran successfully"></span></div>
         <div class="commit">
-            <img class="commit-author-pic" src="asset/c2c5822ceb8ddb76b2b21ea68e8d5c2dd89f89e7_full.jpg"
-                alt="Loading..">
-            <span class="commit-author">Warbenders</span><br>
-            <span class="commit-repository">war_init/</span><br>
-            <span class="commit-title">Added Repo 'war_init'</span><br><br>
-            <span class="commit-message">Added Repository for future commits to Warbenders</span><br>
-            <span class="commit-date">#</span><br>
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/12/23 9:35 AM EST</div>
+                <div class="commit-message">
+                    <strong>|+ Game Settings</strong><br>
+                    +Default Perks: ["Quick Hands","Improved Powerups"] <br>
+                    <strong>|+ Game Modes</strong><br>
+                    + Gun Game: []<br>
+                    |-- Standard Mode: 15 Weapon Rotation <br>
+                    |-- Long Mode: 30 Weapon Rotation<br>
+                    |-- Short Mode: 10 Weapon Rotation<br>
+                    <strong>|+ UI</strong><br>
+                    + Perk Information on Selection Screen<br>
+                    <strong>|+ Weapon Camos</strong><br>
+                    + Acid<br>
+                    + Acid Alt<br>
+                    + Red Acid<br>
+                    + Red Acid Alt<br>
+                    + Gold/Red<br>
+                    <strong>|+ Perks</strong><br>
+                    + Risk Taker : Gives Random Weapon Perk Each Spawn<br>
+                    + Risk Taker Special : Gives Random Special Perk Each Spawn<br>
+                    <strong>|+ Weapons</strong><br>
+                    + Suppressed R23 Pistol<br>
+                </div>
+            </div>
+            <div class="commit-prog success"></div>
+        </div>
+        <div class="commit">
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/11/23 11:48 AM EST</div>
+                <div class="commit-message">
+                    <strong>|+ Maps</strong><br>
+                    + Log Cabin to Forest Map<br>
+                    <strong>|+ Weapon Perks</strong><br>
+                    + Quick Hands: +50% Reload Speed<br>
+                    + Quick Fire: +25% Firerate<br>
+                    + Extended Mag: +50% Clip<br>
+                    + Pinpoint: +25% Accuracy<br>
+                    + Critical Hit: +25 Critical Damage<br>
+                    <strong>|+ Special Perks</strong><br>
+                    + Thick Skin: +50% HP<br>
+                    + Damage Up: +20% Damage<br>
+                    - Upgrade Perks[]<br>
+                    <strong>|+ Animations</strong><br>
+                    * Shotgun Shell Dual Weapon Ejection - <strong>**FIX**</strong>.<br>
+                </div>
+            </div>
+            <div class="commit-prog success"></div>
+        </div>
+        <div class="commit">
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/10/23 12:26 PM EST</div>
+                <div class="commit-message">
+                    <strong>|+ Characters</strong><br>
+                    + Burns<br>
+                    + Boomer<br>
+                    + Silencer<br>
+                    <strong>|+ Character Abilities</strong><br>
+                    + Elementalist<br>
+                    + Big Boomer<br>
+                    + Silent Kill<br>
+                </div>
+            </div>
+            <div class="commit-prog success"></div>
+        </div>
+        <div class="commit">
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/9/23 6:15 PM EST</div>
+                <div class="commit-message">
+                    Worked on Nothing. <br>
+                    Happy Easter!! <br>
+                </div>
+            </div>
+        </div>
+        <div class="commit">
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/8/23 11:03 AM EST</div>
+                <div class="commit-message">
+                    <strong>|+ Kill Lines</strong><br>
+                    + Headshot<br>
+                    + Combo Kill<br>
+                    + Dominating<br>
+                    <strong>|+ Maps</strong><br>
+                    + Forest Changes<br>
+                    <strong>|+ Props</strong><br>
+                    + Tree (1 Variation)<br>
+                    + Grass (2 Variations) : ["Small","Tall"]<br>
+                </div>
+            </div>
+            <div class="commit-prog success"></div>
+        </div>
+
+        <div class="commit">
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">4/7/23 11:25 AM EST</div>
+                <div class="commit-message">
+                    |+ Weapons <br>
+                    + Dual P2 Pistols <br>
+                    |+ Ammo Types:<br>
+                    + Shotgun : Red <br>
+                    + Sniper : Large<br>
+                    + Small Weapons : Small<br>
+                    + Large Weapons : Medium<br>
+                    + <br>
+                    |+ Animations: <br>
+                    + Dual Wield Fire Animation<br>
+                </div>
+            </div>
+            <div class="commit-prog success"></div>
+        </div>
+        <div class="commit">
+            <img src="asset/4fe607e929578b092c9bfee8789edd4d_w200.gif" class="commit-author-pic">
+            <div class="commit-info">
+                <div class="commit-author">Joewee</div>
+                <div class="commit-repository">jg_init/</div>
+            </div>
+            <div class="commit-message-container">
+                <div class="commit-title">JoeGame Initalization : 4/06/2023 2:15 PM EST</div>
+                <div class="commit-message">The first commit for JoeGame</div>
+            </div>
+            <div class="commit-prog success" title="Build #00002: Task: 'jg_init' SUCCESS!"></div>
         </div>
     </div>
-
 </body>
 
 </html>
