@@ -1,3 +1,5 @@
+/* Global styles */
+
 body {
     font-family: sans-serif;
     background-color: #2c2727;
@@ -8,10 +10,10 @@ body {
 a:visited {
     color: #00B386
 }
+
 a:before {
     color: aliceblue;
 }
-
 
 header {
     background-color: #00B386;
@@ -25,9 +27,13 @@ h1 {
     margin-bottom: 0;
     font-size: 2rem;
 }
+
+/* Commit styles */
+
 .commit-container {
     width: 100%;
 }
+
 .commit {
     background-color: #603c16;
     padding: 1rem;
@@ -45,7 +51,7 @@ h1 {
     font-size: 1.2rem;
     font-weight: bold;
     padding-left: 4px;
-    padding: 10px;
+    padding: 3px;
 }
 
 .commit-message {
@@ -54,7 +60,7 @@ h1 {
     font-size: 1.2rem;
     line-height: 1.5;
     padding-left: 4px;
-    padding: 10px;
+    padding: 3px;
 }
 
 .commit-date {
@@ -65,8 +71,9 @@ h1 {
 }
 
 .commit-author-pic {
-    border-radius: 50%;
+    border-radius: 25%;
     width: 10%;
+    height: 10%;
     float: left;
     padding: 10px;
 }
@@ -74,7 +81,7 @@ h1 {
 .commit-author {
     font-size: 1.2rem;
     font-weight: bold;
-    padding: 10px;
+    padding: 3px;
 }
 
 .commit-repository {
@@ -97,7 +104,7 @@ h1 {
 }
 
 .success {
-    background-color: greenyellow;
+    background-color: rgb(34, 255, 0);
     width: 100%;
     height: 6px;
     display: inline-block;
